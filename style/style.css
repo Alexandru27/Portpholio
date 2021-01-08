@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social {
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.social_item {
+    padding-bottom: 15px;
+    color: #dfdddd;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #dfdddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.telegram:hover {
+    border-color: #1F91CD;
+    box-shadow: 0px 0px 15px  #1F91CD;
+}
+
+.telegr:hover {
+    color:  #1F91CD;
+}
+
+.instagram:hover {
+    border-color: #E63D70;
+    box-shadow: 0px 0px 15px  #E63D70;
+}
+
+.instagr:hover {
+    color:  #E63D70;
+}
+
+h3 {
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px
+}
+
+.header-logo {
+    background: linear-gradient(to bottom, #45090c, #e10019);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
+    text-shadow: 2px 3px 5px black, 0 0 2em rgb(29, 29, 29);
+}
+
+.navigation [type="checkbox"] {
+    display: none;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.navigation a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #dfdddd;
+    padding-right: 1px;
+    padding-top: 15px;
+}
+
+.navigation a:hover {
+    color:  #ffffff;
+    transition: all 0.5s;
+    text-shadow: 0px 0px 30px #fff;
+}
+
+.menu::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:  #ffffff;
+    transform: scale(0);
+    
+}
+
+.menu:hover::after {
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.header_content { 
+    background: url(../img/bg-1.png) no-repeat center / cover ;
+    height: 100vh;
+}
+
+.iner_container {
+    display: flex;
+}
+
+.container {
+    max-width: 1170px;
+    max-height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #dfdddd;
+    font-size: 55px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.btn {
+    width: 220px;
+    height: 70px;
+    background: linear-gradient(to bottom, #e10019, #45090c);
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 15px;
+    text-align: center;
+    margin-left: 80px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 35px #45090c;
+    background: linear-gradient(to bottom,  #45090c, #e10019);
+}
+
+.btn:active {
+    border: 1px solid black;
+}
+
+.btn, button {
+    color: #dfdddd;
+    padding-top: 15px;
+    text-shadow: 2px 3px 5px black, 0 0 0.2em rgb(29, 29, 29);
+}
+
+/* sfarshitul primului ecran */
+
+.monitor_2 {
+    background-color: #D3D3D3;
+    min-height: 620px;
+}
+
+.snipets {
+    width: 300px;
+    color: #030303;
+    padding-top: 50px;
+    display: flex;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.text {
+    font-size:  16px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.more, .arrow_right {
+    color: #d12832;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button_more {
+    padding: 10px 25px;
+    position: relative;
+    display: inline-block;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.buton_line {
+    position: absolute;
+    display: block;
+}
+
+.buton_line_top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,  #2196f3);
+}
+
+.button_more:hover .buton_line_top{
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.buton_line_bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,  #2196f3);
+}
+
+.button_more:hover .buton_line_bottom{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+
+.buton_line_left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #2196f3);
+}
+
+.button_more:hover .buton_line_left{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+.buton_line_right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,  #2196f3);
+}
+
+.button_more:hover .buton_line_right{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+
+.button_more:hover{
+    box-shadow: 0 0 10px #2196f3, 0 0 40px  #2196f3, 0 0 80px  #2196f3;
+    color: #333;
+    background-color: #2196f3;
+    transition-delay: 1s;
+}
+
+.arrow {
+    padding-left: 10px;
+}
+
+.snipets {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* sfarshitul la 3 colonitse*/
+
+.portfolio {
+    display: flex;
+    margin-top: 30px;
+}
+
+.mackbook {
+    width: 500px;
+    display: block;
+}
+
+.site1_mack {
+    background: url(../img/сайт.png) no-repeat ;
+    background-position: 50% 30%;
+}
+
+.site2_mack {
+    background: url(../img/2.png) no-repeat ;
+    background-position: 55% 30%;
+}
+
+.site3_mack {
+    background: url(../img/site3.png) no-repeat ;
+    background-position: 50% 30%;
+}
+
+.site4_mack {
+    background: url(../img/site4.png) no-repeat ;
+    background-position: 50% 30%;
+}
+
+.site5_mack {
+    background: url(../img/site5.png) no-repeat ;
+    background-position: 50% 30%;
+}
+
+.portfolio_content {
+    margin-left: 15%;
+}
+
+.title_portfolio {
+    font-size: 35px;
+    color: #314a5b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.primul_abzats {
+    color: #314a5b;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.al_doilea_abzats {
+    color: #191c22;
+    font-size: 15px;
+}
+
+.more_portfolio, .arrow_right_portfolio {
+    color: #d12832;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* sfarshitul ecranului 2*/
+
+.footer {
+    background-color: #aaa7a7;
+}
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items:center;
+}
+
+.footer_social {
+    color: #141414;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.footer_telegram:hover {
+    color:#0c8cd1;
+    transition: all 0.5s;
+}
+
+.footer_instagram:hover {
+    color:#d61274;
+    transition: all 0.5s;
+}
+
+.footer_google:hover {
+    color:#D92E2E;
+    transition: all 0.5s;
+}
+
+.anul,.autor {
+    color: #a71b2a;
+    opacity: 0.6;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
