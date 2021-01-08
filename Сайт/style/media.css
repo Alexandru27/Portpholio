@@ -1,0 +1,242 @@
+@media only screen and (min-width: 768px) {
+    label {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header_content {
+        max-height: 500px;
+    }
+    h1 {
+        font-size: 35px;
+        margin-bottom: 40px;
+        margin-left: 8%;
+    }
+    .btn {
+        width: 190px;
+        height: 60px;
+        font-size: 25px;
+    }
+    .btn, button {
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header_content {
+        max-height: 500px;
+    }
+    .social {
+        width: 500px;
+    }
+    .navigation a {
+        font-size: 18px;
+    }
+    .social_item {
+        width: 40px;
+        height: 40px;
+        border: 3px solid;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .more, .arrow_right {
+        font-size: 16px;
+        line-height: 0;
+    }
+    .portfolio_content {
+        margin-left: 5%;
+    }
+    .title_portfolio {
+        font-size: 25px;
+    }
+    .primul_abzats {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+    .al_doilea_abzats {
+        font-size: 13px;
+    }
+    .more_portfolio, .arrow_right_portfolio {
+        font-size: 16px;
+        line-height: 0;
+        margin-top: 5px;
+    }
+    .footer_social {
+        font-size: 30px;
+    }
+    .anul, .autor {
+        font-size: 20px;
+    }
+    .footer_content {
+        height: 50px;
+    }
+
+@media only screen and (max-width: 768px) {
+    .header_content {
+        max-height: 470px;
+    }
+    .header-logo {
+        padding: 10px;
+    }
+    h3 {
+        font-size: 18px;
+        padding-bottom: 0;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    .navigation {
+        width: 150px;
+        overflow: hidden;
+    }
+    .navigation a {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+    .social {
+        position: absolute;
+        display: block;
+        display: none;
+        margin-top: 0;
+    }
+    .social_item {
+        padding-bottom: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    .header-logo{
+        max-height: 60px;
+    }
+    .navigation label.toggle_menu {
+        text-align: right;
+        background: #c9c9c9;
+        display: block;
+        border-radius: 5px;
+        margin-top: 5px;
+        padding: 15px 30px;
+        text-transform: uppercase;
+        font-weight: 900;
+        opacity: 0.8;
+        font-size: 14px;
+        cursor: pointer;
+        position: relative;
+    }
+    .navigation label.toggle_menu .fa-bars {
+        position: absolute;
+        top: 15px;
+        left: 12px;
+        font-size: 18px;
+    }
+    input.toggle_menu:checked + label.toggle_menu {
+        background-color: #000;
+        color: #fff;
+    }
+    input.toggle_menu:checked ~ .social {
+        display: block;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .btn {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .snipets {
+        padding-top: 15px;
+    }
+    .title {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .text {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+    .slick-slider{
+        left: -30px;
+        display: inline;
+    }
+    .portfolio_content {
+        margin-top: 300px;
+        margin-left: -90%; 
+        padding-bottom: 25px; 
+    }
+    .title_portfolio {
+        font-size: 20px;
+    }
+    .monitor_2 {
+        padding: 5px;
+    }
+    .footer_social {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    .anul, .autor {
+        font-size: 15px;
+    }
+
+@media only screen and (max-width: 480px) {
+    .header_content {
+        max-height: 400px;
+    }
+    .navigation label.toggle_menu {
+        text-align: center;
+    }
+    .social {
+       position: absolute; 
+       padding: 10px;
+       background-color: #0D0D0D;
+       opacity: 0.9;
+       border-radius: 5px;
+       width: 150px;
+       margin-top: 5px;
+       margin-right: 150px;
+    }
+    .btn {
+        margin-left: 40%;
+    }
+    .snipets {
+        display: inline;
+        margin: 10px;
+    }
+    .pleace_of_mid {
+        padding-bottom: 20px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .portfolio {
+        margin-top: 0;
+    }
+    .mackbook  {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 100%;
+    }
+    .portfolio_content {
+       margin: 0 auto;
+    }
+    .none {
+        display: none;
+    }
+    .footer_social {
+        font-size: 20px;
+    }
+    .anul, .autor {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+}
